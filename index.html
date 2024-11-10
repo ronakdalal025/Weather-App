@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather App</h1>
+            <p>Get real-time weather updates based on your location or city name.</p>
+        </header>
+
+        <div class="weather-widget">
+            <button id="get-location" class="location-button">Use My Location</button>
+            <input type="text" id="city-input" placeholder="Enter city name" />
+            <button id="search-button" class="search-button">Search</button>
+
+            <div id="weather-info" class="weather-info">
+                <div id="weather-location"></div>
+                <div id="temperature"></div>
+                <div id="humidity"></div>
+                <div id="description"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
